@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intensify</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <div class="sidebar">
-        <i class="fa-regular fa-circle-xmark" onclick="toggleSidebar()"></i>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Generic</a></li>
-            <li class="no-border"><a href="#">Elements</a></li>
-        </ul>
+      <i class="fa-regular fa-circle-xmark" onclick="toggleSidebar()"></i>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Generic</a></li>
+        <li class="no-border"><a href="#">Elements</a></li>
+      </ul>
     </div>
     <div class="container">
-        <nav id="main-nav">
-            <i class="fa-solid fa-bars" onclick="toggleSidebar()"></i>
-            <a href="#" class="logo">intensify</a>
-            <button class="btn">Log in</button>
-        </nav>
+      <nav id="main-nav">
+        <i class="fa-solid fa-bars" onclick="toggleSidebar()"></i>
+        <a href="#" class="logo">intensify</a>
+        <button class="btn">Log in</button>
+      </nav>
     </div>
     <section class="banner">
-        <div class="container">
-            <h1 class="hero">This is Intensify</h1>
-            <p class="intro-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos facilis excepturi voluptates assumenda, dolore pariatur repellat veniam quo sed repudiandae.</p>
-            <button class="btn btn-primary">Get Started</button>
+      <div class="container">
+        <div class="flex-container">
+          <h1 class="hero">This is Intensify</h1>
+          <p class="intro-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+            facilis excepturi voluptates assumenda, dolore pariatur repellat
+            veniam quo sed repudiandae.
+          </p>
+          <button class="btn-primary">Get Started</button>
         </div>
+      </div>
     </section>
     <script src="./js/app.js" defer></script>
-</body>
+  </body>
 </html>
