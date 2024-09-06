@@ -9,3 +9,58 @@
 body {
     font-family: "Open Sans", sans-serif;;
 }
+
+:root {
+    --orange: #f6755e;
+    --blue: #25a2c3;
+    --light-grey: #767d85;
+    --muted: #dee1e3;
+    --bg-light: #e5e5e5;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    padding: 1.5rem;
+    background-color: var(--blue);
+    color: var(--bg-light);
+    position: absolute;
+    left: -300px;
+    transition: .4s;
+}
+
+.sidebar a {
+    color: var(--bg-light);
+}
+
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.sidebar li {
+    border-bottom: 1px var(--bg-light) solid;
+    padding-bottom: 1rem;
+}
+
+.sidebar .no-border {
+    border-bottom: none;
+}
+
+.sidebar .fa-regular {
+    font-size: 2rem;
+    position: relative;
+    left: 220px;
+}
+
+.sidebar.active {
+    left: 0;
+}
