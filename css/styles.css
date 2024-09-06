@@ -61,6 +61,10 @@ a {
     left: 220px;
 }
 
+.sidebar .fa-regular:hover {
+    color: var(--muted);
+}
+
 .sidebar.active {
     left: 0;
 }
