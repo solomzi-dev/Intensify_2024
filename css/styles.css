@@ -183,6 +183,7 @@ a {
     text-align: center;
     color: var(--bg-light);
     padding: 7rem;
+    margin-bottom: 5rem;
 }
 
 .ceo-msg h2 {
@@ -201,4 +202,39 @@ a {
 
 .ceo-name {
     font-size: 1.2rem;
+}
+
+/* Showcase Section */
+.showcase {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.showcase-box {
+    border: 1px solid var(--muted);
+    border-radius: 4px;
+    width: 360px;
+}
+
+.header-img {
+    margin-bottom: 2rem;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.showcase-box h3 {
+    color: var(--blue);
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    margin-left: 1.7rem;
+}
+
+.showcase-box p {
+    color: var(--muted);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    margin-left: 1.7rem;
 }
