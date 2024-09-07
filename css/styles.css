@@ -56,7 +56,6 @@ a {
     font-family: "Pacifico", cursive;
     font-size: 3rem;
     color: var(--orange);
-    font-weight: 100;
 }
 
 .sidebar {
@@ -144,4 +143,36 @@ a {
     margin: 1.3rem 0;
     line-height: 1.7;
     color: var(--light-grey);
+}
+
+/* What we do section */
+.wwd {
+    margin: 5rem 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+}
+
+.img-box {
+    background: url('../images/phone.jpg') no-repeat center center/cover;
+    border-radius: 100%;
+    grid-row: span 2;
+    width: 330px;
+    height: 330px;
+}
+
+.text-box h3 {
+    color: var(--blue);
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+}
+
+.text-box p {
+    color: var(--light-grey);
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
