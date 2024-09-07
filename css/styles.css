@@ -176,3 +176,29 @@ a {
     font-size: 1.1rem;
     line-height: 1.6;
 }
+
+/* CEO Section */
+.ceo-msg {
+    background-color: var(--orange);
+    text-align: center;
+    color: var(--bg-light);
+    padding: 7rem;
+}
+
+.ceo-msg h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ceo-msg .ceo-msg-text {
+    font-size: 1.3rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 65ch;
+    color: var(--muted);
+    opacity: .5;
+}
+
+.ceo-name {
+    font-size: 1.2rem;
+}
