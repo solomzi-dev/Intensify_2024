@@ -238,3 +238,35 @@ a {
     font-size: 1.1rem;
     margin-left: 1.7rem;
 }
+
+/* Get in touch section */
+.git {
+    background-color: var(--blue);
+    color: var(--bg-light);
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.git h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.git .contact {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.git .contact i {
+    color: var(--orange);
+}
+
+.git hr {
+    margin-bottom: 2rem;
+    color: var(--muted);
+    opacity: .3;
+}
+
